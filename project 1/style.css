@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    min-height: 650px;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*top bar open*/
+.top-bar{
+    display: grid;
+    grid-template-columns: 20% 25%; 
+    color: white;
+}
+.top-bar .phone-number, .time{
+    text-align: center;
+    padding: 20px;
+}
+/*top bar close */
+    
+    
+
+/*nav bar open*/
+.nav-bar{
+    display: grid;
+    grid-template-columns: 30% 10% 10% 10% 10% 10% 10% 10%;
+    color: white;
+    padding: 20px;
+    background-color: rgba(55, 55, 25, 0.3);
+
+}
+.nav-bar .title{
+    text-align: center;
+    font-size: 30px;
+}
+.nav-bar .menu-item{
+    height: 30px;
+    padding-top: 15px;
+    color: white;
+}
+/*nav bar close*/
+
+
+/*home bar open*/
+.home-bar{
+    padding: 200px 100px;
+    
+}
+.home-bar .title{
+    font-size: 30px;
+    color: aliceblue;
+}
+.home-bar .discription{
+    font-size: 30px;
+    color: bisque;
+}
+.home-bar .button-group button{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/*home bar close*/
